@@ -21,7 +21,7 @@ use App\Models\User;
 */
 
 Route::redirect('/', '/login');
-
+// me being lazy :)
 Route::get('/dashboard', function () {
     $mahasiswa = Mahasiswa::count();
     $pembayaran = Pembayaran::count();
